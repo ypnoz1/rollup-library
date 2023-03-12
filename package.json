@@ -1,6 +1,6 @@
 {
   "name": "@inter-rollup/lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/cjs/index.js",
   "repository": {
@@ -28,5 +28,9 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
 }
