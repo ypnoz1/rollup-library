@@ -7,6 +7,7 @@ pipeline {
 				echo 'Start install...'
                 bat 'npm install'
 				echo 'Start build...'
+				bat 'npm rollup'
             }
         }
     }
