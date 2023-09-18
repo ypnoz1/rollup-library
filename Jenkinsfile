@@ -3,7 +3,10 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                bat 'npm install' 
+				//bat for windows, sh for linux
+				echo 'Start install...'
+                bat 'npm install'
+				echo 'Start build...'
             }
         }
     }
