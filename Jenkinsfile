@@ -10,5 +10,12 @@ pipeline {
 				bat 'npm run rollup'
             }
         }
+		/*
+		stage('Test') { 
+            //steps {
+            //    sh './jenkins/scripts/test.sh' 
+            //}
+        }
+		*/
     }
 }
